@@ -83,7 +83,7 @@ start.addEventListener("click", () => {
 
         } else {
             Notiflix.Notify.success("Countdown finished");
-            myTimer.style.color = "yellow";
+            myTimer.style.color = "green";
             clearInterval(timer);
         }
     }, 1000);
