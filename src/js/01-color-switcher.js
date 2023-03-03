@@ -1,5 +1,5 @@
 
-const start = dokument.querySelector("button[data-start]");
+const start = document.querySelector("button[data-start]");
 const stop = document.querySelector("button[data-stop]");
 
 start.disabled = true;
@@ -10,7 +10,7 @@ function getRandomHexColor() {
 }
 
 
-start.addIventListener('click', () => {
+start.addEventListener('click', () => {
     start.disabled = true;
     stop.disabled = false;
 
@@ -21,7 +21,7 @@ start.addIventListener('click', () => {
 }
 );
 
-stop.addIventListener("click", () => {
+stop.addEventListener("click", () => {
     
     clearInterval(colorInterval);
 
