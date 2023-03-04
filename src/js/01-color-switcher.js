@@ -2,7 +2,7 @@
 const start = document.querySelector("button[data-start]");
 const stop = document.querySelector("button[data-stop]");
 
-start.disabled = true;
+
 let colorInterval = null;
 
 function getRandomHexColor() {
